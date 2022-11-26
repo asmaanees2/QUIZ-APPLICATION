@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Application</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: #1a5077;">
+  <div class="quiz-container" id="quiz">
+    <div class="quiz-header">
+      <h2 id="question">Quiz Application</h2>
+      <input type="text" id="question" placeholder="Questions?">
+      <br><br>
+      <input type="radio" name="answer" id="a" class="answer">
+      <input type="text" id="optA" placeholder="Option A">
+      <br><br>
+      <input type="radio" name="answer" id="b" class="answer">
+      <input type="text" id="optB" placeholder="Option B">
+      <br><br>
+      <input type="radio" name="answer" id="c" class="answer">
+      <input type="text" id="optC" placeholder="Option C">
+      <br><br>
+      <input type="radio" name="answer" id="d" class="answer">
+      <input type="text" id="optD" placeholder="Option D">
+    </div>
+    <button id="submit" onclick="sendquiz()">Submit</button>
+  </div>
+  <script type="module" src="app.js"></script>
+</body>
+
+</html>
